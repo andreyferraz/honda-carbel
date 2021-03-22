@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html,
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+p,
+h1,
+h2,
+h3{
+    font-family: 'Roboto', sans-serif; 
+}
+
+input{
+    font-family: 'Roboto', sans-serif; 
+}
+
+.menu-top{
+    font-weight: 500;
+    font-size: 13px;
+    background-color: #EEEEEE;
+    height: 30px;
+    color: #707070;
+}
+
+.menu-mobile-top{
+    display: none;
+}
+
+.logo-principal{
+    margin-left: 114px;
+}
+
+.logoAlignMobile{
+    display: none;
+}
+
+#cent-aten{
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: right;
+    color: #727B7A;
+    margin-top: -50px;
+    margin-right: 150px;
+}
+
+.mainSlideDesktop{
+    display: block;
+    margin-left: -27px;
+    margin-right: -27px;
+}
+
+.mainSlideMobile{
+    display: none;
+}
+
+.formulario-contato{
+    position: fixed;
+    margin-top: -350px;
+    margin-left: 75%;
+    background: #EEEEEE ;
+    padding-bottom: 10px;
+    width: 240px;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.emocao{
+    margin-top: 90px;
+}
+
+#div-ti-emocao{
+    margin-left: 114px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#ti-emocao{
+    font-style: italic;
+    font-weight: 200;
+}
+
+#ti-pronto{
+    font-style: italic;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+#div-texto-emocao{
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+.slideDois{
+    background-color: black;
+}
+
+#background-s2-mobile{
+    display: none;
+}
+
+#background-s2-desktop{
+    display: block;
+}
+
+.prepare{
+    display: none;
+}
+
+#conheca{
+    margin-left: 100px;
+}
+
+.accord{
+    border: 1px solid black;
+    padding: 5px;
+   
+    margin-left: 100px;
+}
+
+.encon{
+    border: 1px solid #DF0209;
+    margin-left: 470px;
+    background-color: #EEEEEE;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.enconDois{
+    border: 1px solid #DF0209;
+    margin-left: 20px;
+    background-color: #EEEEEE;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.redesSociais{
+    margin: 0 auto; width: 50%;
+}
+
+
+  
+
+  .MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+  .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+      .MultiCarousel .MultiCarousel-inner .item { float: left;}
+      .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:white; color:#666;}
+  .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+  .MultiCarousel .leftLst { left:0; }
+  .MultiCarousel .rightLst { right:0; }
+  
+      .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+
+  
+ 
+
+
+
+
+

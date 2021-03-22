@@ -1,0 +1,143 @@
+@media(max-width: 768px){
+
+    .menu-top{
+        display: none;
+    }
+
+    .menu-mobile-top{
+        display: block;
+        background-color: #EEEEEE;
+        font-size: 30px;
+        color: #707070;
+    }
+
+    .logo-principal{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .logoAlignMobile{
+        display: block;
+    }
+
+    .logoAlignDesktop{
+        display: none;
+    }
+
+    #cent-aten{
+        font-style: italic;
+        font-size: 16px;
+        font-weight: 100;
+        color: #727B7A;
+        margin-top: 40px;
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    .mainSlideDesktop{
+        display: none;
+    }
+
+    .mainSlideMobile{
+        display: flex;
+    }
+
+    .formulario-contato{
+        position: initial;
+        background: #EEEEEE ;
+        padding-bottom: 10px;
+        width: 100%;
+        border-radius: 10px;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .partesCarros{
+        display: none;
+    }
+
+    .emocao{
+        margin-top: 0px;
+    }
+
+    #div-ti-emocao{
+        margin-left: 0px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    
+
+    #ti-emocao{
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 200;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    #ti-pronto{
+        font-style: italic;
+        font-weight: 200;
+        margin-top: -30px;
+        text-align: center;
+        font-size: 24px;
+        margin-left: 0px;
+    }
+
+    #div-texto-emocao{
+        margin-left: 0px;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    #background-s2-mobile{
+        display: block;
+    }
+
+    #background-s2-desktop{
+        display: none;
+    }
+
+    .slideDois{
+        background-color: unset;
+        width: 100%;
+    }
+
+    .prepare{
+        display: unset;
+    }
+
+    #conheca{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .accord{
+        border: 1px solid #D5D5D5;
+        padding: 5px;
+        margin: 0 auto 50%;
+        padding-bottom: 20px;
+        margin-bottom: -5px;
+    }
+
+    .encon{
+        border: 1px solid #DF0209;
+        margin-left: 0px;
+        background-color: #EEEEEE;
+        height: 60px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+
+    .enconDois{
+        border: 1px solid #DF0209;
+        margin-left: 0px;
+        background-color: #EEEEEE;
+        height: 60px;
+        border-radius: 5px;
+    }
+
+}

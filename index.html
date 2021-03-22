@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/fontawesome-free-5.15.2-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-mobile.css">
+   
+
+    <title>Honda | Banzai</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- menu inicial Desktop-->
+        <div class="row menu-top">
+            <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8" style="display: inline-flex; padding-left: 114px;">
+                <p><i class="fas fa-home mt-1"></i> Ir para o Portal Banzai</p>
+            </div>
+            <div class="col-4 col-sm-4 col-md-4 com-lg-4 col-xl-4" style="display: inline-flex;">
+                <p style="margin-right: 15px;"><i class="fas fa-map-marker-alt mt-1"></i> Encontre uma concessionária</p>
+                <p><i class="fas fa-envelope mt-1"></i> Fale conosco</p>
+            </div>
+        </div>
+        <!-- menu inicial mobile     -->
+        <div class="row menu-mobile-top">
+                <div class="col-12 col-sm-12 col-md-12 text-center">
+                       <p><i class="fas fa-home mt-1 mr-5 ml-5"></i>
+                      <i class="fas fa-map-marker-alt mt-1 mr-5"></i> 
+                       <i class="fas fa-envelope mt-1 mr-5"></i> </p>
+                </div>
+        </div>
+        <!-- logo e telefone -->
+        <div class="row logoAlignDesktop">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-4 wow bounceInLeft" data-wow-delay="2s">
+                <img class="logo-principal" src="./img/logo.png" alt="" class="img-fluid" >
+                <h3 id="cent-aten">CENTRAL DE ATENDIMENTO <br>
+                  <span style="font-size: 26px; color: #DF0209; letter-spacing: 2px;">(31) 3123-1234</span>  
+                </h3>
+            </div>
+        </div>
+        <div class="row logoAlignMobile">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-4 text-center">
+                <img class="logo-principal" src="./img/logo.png" alt="" class="img-fluid wow bounceInLeft" data-wow-delay="2s">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                <h3  id="cent-aten">CENTRAL DE ATENDIMENTO <br>
+                  <span style="font-size: 26px; color: #DF0209; letter-spacing: 2px;">(31) 3123-1234</span>  
+                </h3>
+            </div>
+        </div>
+        <!-- slide principal -->
+        <div class="row mainSlideDesktop">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                <img src="./img/main-slide.png" alt="" class="img-fluid" width="100%">
+            </div>
+        </div>
+        <div class="row mainSlideMobile">
+            <dib class="col-12 text-center">
+                <img src="./img/slide-mobile.png" alt="" class="img-fluid">
+                <img src="./img/civic-mobile.png" alt="" class="img-fluid">
+            </dib>
+        </div>  
+        <!-- formulário de contato   -->
+        <div class="row formulario-contato mr-5 wow bounceInRight" data-wow-delay="2s">
+            <div class="col-12 mt-3">
+                <div style="display: inline-flex;">
+                    <h2 class="mr-3"><i class="fas fa-phone-alt" style="color: #727B7A;"></i></h2> <p>Solicitar um <br>
+                   <span style="color: #DF0209;">CONTATO</span>  
+                    </p>
+                </div>
+                    <input class="mb-2" type="text" name="name" placeholder="Nome"  id="" style="border-radius: 5px; width: 100%;"> <br>
+                    <input class="mb-2" type="email" name="email" placeholder="E-mail"  id="" style="border-radius: 5px; width: 100%;"> <br>
+                    <input class="mb-2" type="tel" name="telefone" placeholder="Telefone"  id="" style="border-radius: 5px; width: 100%;"> <br>
+                        <select class="form-control mb-2" style="width: 100%;">
+                        <option class="">Escolha um horário</option>
+                          <option>Horário um</option>
+                          <option>Horário dois</option>
+                          <option>Horário três</option>
+                        </select> 
+                    <select class="form-control mb-2" style="width: 100%;" id="unidade">
+                        <option value="primeiro">Escolha a unidade</option>
+                        <option value="segundo">São Paulo</option>
+                        <option value="terceiro">Belo Horizonte</option>
+                        <option value="quarto" >Salvador</option>
+                    </select>
+                    <button type="button" class="btn btn-success" style="font-family: 'Roboto', sans-serif; width: 100%;">AGENDAR TESTE DRIVE</button>
+            </div>
+        </div>
+        <!-- Apresentação com fotos, eu ia inserir um slide, mas creio que não era isso que vcs queria, pois as imagens são pequenas demais  -->
+        <div class="row mt-3">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 wow bounceRight" id="div-ti-emocao" data-wow-delay="2s">
+                <h2 id="ti-emocao">A EMOÇÃO DE DIRIGIR LEVA VOCÊ MAIS LONGE </h2>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 text-center pl-5 partesCarros">
+                <img src="./img/parte1-carro.png" alt="" class="img-fluid p-1 mb-2 wow bounceInLeft" data-wow-delay="2s" style="border: 1px solid black;">
+                <img src="./img/parte2-carro.png" alt="" class="img-fluid p-1 mb-2 wow bounceInLeft" data-wow-delay="2s"  style="border: 1px solid black;">
+                <img src="./img/parte3-carro.png" alt="" class="img-fluid p-1 mb-2"  style="border: 1px solid black;">
+            </div>
+            <div class="col-12 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                <img src="./img/carro-honda.png" alt="" class="img-fluid emocao wow bounceInRight" data-wow-delay="2s">
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-7 col-md-7 col-lg-7 col-xl-7 mb-3" id="div-texto-emocao">
+              <p>O novo Civic Geração 10 traz um design único mudando a categoria de sedãs para sempre. Ele garante a melhor dirigibilidade com o máximo em sofisticação e conforto, atribuído por seu design interno e diferenciada ergonomia.</p>
+          </div>  
+        </div>
+
+        <!-- segundo slide cabeçalho  -->
+        <div class="row">
+            <div class="col-sm-12 slideDois text-center">
+               <img id="background-s2-desktop" src="./img/slide-dois.png" style="width: 100%;">
+               <img id="background-s2-mobile" src="./img/emocao-mobile-background.png" style="width: 100%;">
+            </div>
+            <div class="col-12 text-center prepare" style="margin-top: -120px;">
+                <h2 style="font-size: 24px; color: white; font-style: italic;
+                font-weight: 200;
+                text-align: center;
+                margin-bottom: -20px;">
+                    PREPARE-SE PARA ALGO REALMENTE NOVO
+                </h2>
+                <p style="text-align: center;
+                font-size: 14px;
+                margin-top: 20px;
+                color: white;">
+                    O novo Civic Geração 10 vem completo de série. Conheça a versão perfeita para você.
+                </p>
+            </div>
+           
+        </div>
+         <!-- o segundo slide em si -->
+          <div class="container">
+              <div class="row">
+                    <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                        <div class="MultiCarousel-inner" >
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="./img/slide-dois-parteum.png" alt="" class="img-fluid">
+                                    <p>Direção com Assistência</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="./img/slide-dois-partedois.png" alt="" class="img-fluid">
+                                    <p>Vidros elétricos com subida automática</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="./img/slide-dois-partetres.png" alt="" class="img-fluid">
+                                    <p>Câmbio CVT com Paddle Shift</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="./img/slide-dois-parteum.png" alt="" class="img-fluid">
+                                    <p>Direção com Assistência</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="./img/slide-dois-partedois.png" alt="" class="img-fluid">
+                                    <p>Vidros elétricos com subida automática</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="./img/slide-dois-partetres.png" alt="" class="img-fluid">
+                                    <p>Câmbio CVT com Paddle Shift</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="./img/slide-dois-parteum.png" alt="" class="img-fluid">
+                                    <p>Direção com Assistência</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="./img/slide-dois-partedois.png" alt="" class="img-fluid">
+                                    <p>Vidros elétricos com subida automática</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="./img/slide-dois-partetres.png" alt="" class="img-fluid">
+                                    <p>Câmbio CVT com Paddle Shift</p>
+                                    
+                                </div>
+                            </div>
+            
+                        </div>
+                        <button class="btn btn-primary leftLst"><</button>
+                        <button class="btn btn-primary rightLst">></button>
+                    </div>
+            </div>
+          </div>  
+            <!-- detalhes dos carros em cards -->
+          <div class="row">
+              <div class="col-12 col-sm-9 col-md-9 col-lg-9 col-xl-9" >
+                  <h2 id="ti-pronto">PRONTO PARA TER UM HONDA?</h2>
+                  <p id="conheca">Conheça os últimos grandes lançamentos da honda.</p>
+              </div>
+        </div>
+          <div class="row text-center">
+            <div class="col-10 col-sm-2 col-md-2 col-lg-2 col-xl-2 text-center accord" >
+                 <img src="./img/accord.png" alt="" class="img-fluid">
+                 <p style="font-size: 14px;"> 
+                    Novo Honda Accord: a combinação perfeita de três atributos exigidos pelo consumidor: elegância, luxo e alto desempenho. 
+                 </p>
+                 <span style="border: 1px solid #D5D5D5; padding: 5px; font-size: 14px;">
+                    CONHEÇA MAIS
+                 </span>
+            </div>
+            <div class="col-10 col-sm-2 col-md-2 col-lg-2 col-xl-2 text-center accord" >
+                <img src="./img/city.png" alt="" class="img-fluid">
+                <p style="font-size: 14px;">
+                    O City está muito mais moderno e esportivo. Com design único e mais tecnológico do que nunca, ele vai conquistar todos os olhares.
+                </p>
+                <span style="border: 1px solid #D5D5D5; padding: 5px; font-size: 14px;">
+                    CONHEÇA MAIS
+                 </span>
+            </div>
+            <div class="col-10 col-sm-2 col-md-2 col-lg-2 col-xl-2 text-center accord" >
+                <img src="./img/fit.png" alt="" class="img-fluid">
+                <p style="font-size: 14px;">
+                    Com seu design inconfundível, o novo Honda Fit traz novidades que vão surpreender a todos e atrair ainda mais fãs. 
+                </p>
+                <span style="border: 1px solid #D5D5D5; padding: 5px; font-size: 14px;">
+                    CONHEÇA MAIS
+                 </span>
+          </div>
+          <!-- parte final -->
+    </div>
+    <div class="container-fluid">
+        <div class="row mt-3 p-3" style="background-color: #EEEEEE;" >
+            <div class="col-12 col-sm-2 col-md-2 col-lg-2col-xl-2 encon p-1" style="display: inline-flex; background-color: white;">
+                <i class="fas fa-map-marker-alt mt-1" style="font-size: 30px; margin-right: 10px;"></i>    <p style="font-size: 14px; font-style: italic; color: #727B7A;">  Encontre uma <br>
+                   
+                    <span style="font-size: 22px; color: #DF0209;">CONCESSIONÁRIA</span>  
+                  </p>
+           </div>
+           <div class="col-12 col-sm-2 col-md-2 col-lg-2col-xl-2 enconDois text-center" style="background-color: white;">
+                    <p style="font-size: 14px; font-style: italic; color: #727B7A;"> CENTRAL DE ATENDIMENTO <br>
+                      <span style="font-size: 22px; font-style: italic; color: #DF0209;">(31) 3123-1234</span>  
+                    </p>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center ">
+                <h2 style="margin-top: 20px;" id="ti-pronto">SIGA A BANZAI NAS REDES SOCIAIS</h2>
+            </div>
+            <div class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 text-center redesSociais" >
+               <p style="font-size: 40px; color: #C5C5C5"><i class="fab fa-facebook-square"></i> <i class="fab fa-instagram-square"></i> <i class="fab fa-twitter-square"></i></p> 
+            </div>
+      </div>
+      <div class="row" style="background-color: white;">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center mt-3">
+            <img src="./img/logo.png" alt="" class="img-fluid mb-3">
+            <p style="font-size: 12px; color:#707070;">Todos juntos fazem um trânsito melhor <img src="./img/ibama.png" alt="">  </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
